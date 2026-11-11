@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="800" viewBox="0 0 360 800" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <!-- Frame Metadata -->
+  <title>Home Screen - Low Fidelity Wireframe</title>
+  <desc>Coursera Android Developer Capstone Project - Little Lemon Mobile App Wireframe</desc>
+
+  <!-- ════════════════════════════════════════════════════════════
+       CANVAS BACKGROUND & BOUNDARY (360 x 800 px)
+  ════════════════════════════════════════════════════════════ -->
+  <rect id="canvas-bg" width="360" height="800" fill="#FFFFFF"/>
+
+  <!-- ════════════════════════════════════════════════════════════
+       A. HEADER (y: 0 to 60)
+  ════════════════════════════════════════════════════════════ -->
+  <g id="header">
+    <rect x="0" y="0" width="360" height="60" fill="#F8F9FA"/>
+    <line x1="0" y1="60" x2="360" y2="60" stroke="#CCCCCC" stroke-width="1"/>
+
+    <!-- Little Lemon Logo Placeholder (Left) -->
+    <g id="logo-placeholder">
+      <rect x="16" y="12" width="36" height="36" rx="4" fill="#E9ECEF" stroke="#ADB5BD" stroke-width="1"/>
+      <line x1="16" y1="12" x2="52" y2="48" stroke="#ADB5BD" stroke-width="1"/>
+      <line x1="16" y1="48" x2="52" y2="12" stroke="#ADB5BD" stroke-width="1"/>
+    </g>
+
+    <!-- App / Brand Name -->
+    <text x="60" y="35" font-size="16" font-weight="bold" fill="#212529">Little Lemon</text>
+
+    <!-- Profile Icon Placeholder (Right) -->
+    <g id="profile-icon-placeholder">
+      <circle cx="326" cy="30" r="18" fill="#E9ECEF" stroke="#ADB5BD" stroke-width="1"/>
+      <!-- User silhouette -->
+      <circle cx="326" cy="24" r="5" fill="#6C757D"/>
+      <path d="M 317 38 C 317 32, 335 32, 335 38 Z" fill="#6C757D"/>
+    </g>
+  </g>
+
+  <!-- ════════════════════════════════════════════════════════════
+       B. HERO SECTION (y: 60 to 270)
+  ════════════════════════════════════════════════════════════ -->
+  <g id="hero-section">
+    <rect x="0" y="60" width="360" height="210" fill="#495057"/>
+
+    <!-- Restaurant Name -->
+    <text x="16" y="94" font-size="22" font-weight="bold" fill="#FFFFFF">Little Lemon</text>
+
+    <!-- Location -->
+    <text x="16" y="118" font-size="15" fill="#DEE2E6">Chicago</text>
+
+    <!-- Short Restaurant Description (Mandatory) -->
+    <text font-size="12" fill="#CED4DA">
+      <tspan x="16" y="142">We are a family-owned Mediterranean</tspan>
+      <tspan x="16" y="159">restaurant, focused on traditional recipes</tspan>
+      <tspan x="16" y="176">served with a modern twist.</tspan>
+    </text>
+
+    <!-- Hero Image Placeholder (Right side) -->
+    <g id="hero-image-placeholder">
+      <rect x="230" y="78" width="114" height="110" rx="6" fill="#6C757D" stroke="#ADB5BD" stroke-width="1"/>
+      <line x1="230" y1="78" x2="344" y2="188" stroke="#ADB5BD" stroke-width="1"/>
+      <line x1="230" y1="188" x2="344" y2="78" stroke="#ADB5BD" stroke-width="1"/>
+      <text x="287" y="137" font-size="11" fill="#E9ECEF" text-anchor="middle">[ Image ]</text>
+    </g>
+
+    <!-- Search Bar (Mandatory) -->
+    <g id="search-bar">
+      <rect x="16" y="208" width="328" height="42" rx="8" fill="#FFFFFF" stroke="#ADB5BD" stroke-width="1"/>
+      <!-- Magnifier search icon -->
+      <circle cx="36" cy="228" r="6" fill="none" stroke="#6C757D" stroke-width="1.8"/>
+      <line x1="40.5" y1="232.5" x2="46" y2="238" stroke="#6C757D" stroke-width="1.8" stroke-linecap="round"/>
+      <!-- Placeholder text -->
+      <text x="54" y="233" font-size="13" fill="#6C757D">Search menu items</text>
+    </g>
+  </g>
+
+  <!-- ════════════════════════════════════════════════════════════
+       C. MENU CATEGORY SECTION (y: 270 to 350)
+  ════════════════════════════════════════════════════════════ -->
+  <g id="category-section">
+    <rect x="0" y="270" width="360" height="80" fill="#FFFFFF"/>
+
+    <!-- Section Title -->
+    <text x="16" y="294" font-size="13" font-weight="bold" fill="#212529" letter-spacing="0.5">ORDER FOR DELIVERY</text>
+
+    <!-- Horizontal Category Pills -->
+    <!-- Pill 1: Starters -->
+    <g id="category-starters">
+      <rect x="16" y="308" width="86" height="30" rx="15" fill="#E9ECEF" stroke="#CED4DA" stroke-width="1"/>
+      <text x="59" y="327" font-size="12" font-weight="bold" fill="#495057" text-anchor="middle">Starters</text>
+    </g>
+
+    <!-- Pill 2: Mains -->
+    <g id="category-mains">
+      <rect x="110" y="308" width="78" height="30" rx="15" fill="#E9ECEF" stroke="#CED4DA" stroke-width="1"/>
+      <text x="149" y="327" font-size="12" font-weight="bold" fill="#495057" text-anchor="middle">Mains</text>
+    </g>
+
+    <!-- Pill 3: Desserts -->
+    <g id="category-desserts">
+      <rect x="196" y="308" width="88" height="30" rx="15" fill="#E9ECEF" stroke="#CED4DA" stroke-width="1"/>
+      <text x="240" y="327" font-size="12" font-weight="bold" fill="#495057" text-anchor="middle">Desserts</text>
+    </g>
+
+    <!-- Section Divider -->
+    <line x1="0" y1="350" x2="360" y2="350" stroke="#DEE2E6" stroke-width="1"/>
+  </g>
+
+  <!-- ════════════════════════════════════════════════════════════
+       D. FOOD MENU LIST (y: 350 to 800)
+  ════════════════════════════════════════════════════════════ -->
+  <g id="menu-list">
+    <!-- Item 1: Greek Salad -->
+    <g id="menu-item-1">
+      <text x="16" y="380" font-size="15" font-weight="bold" fill="#212529">Greek Salad</text>
+      <text font-size="12" fill="#6C757D">
+        <tspan x="16" y="401">Fresh lettuce, tomatoes, olives</tspan>
+        <tspan x="16" y="418">and feta cheese.</tspan>
+      </text>
+      <text x="16" y="445" font-size="13" font-weight="bold" fill="#495057">$12.99</text>
+
+      <!-- Item Image Placeholder -->
+      <rect x="254" y="366" width="90" height="80" rx="6" fill="#F1F3F5" stroke="#CED4DA" stroke-width="1"/>
+      <line x1="254" y1="366" x2="344" y2="446" stroke="#CED4DA" stroke-width="1"/>
+      <line x1="254" y1="446" x2="344" y2="366" stroke="#CED4DA" stroke-width="1"/>
+
+      <!-- Item Divider -->
+      <line x1="16" y1="480" x2="344" y2="480" stroke="#E9ECEF" stroke-width="1"/>
+    </g>
+
+    <!-- Item 2: Bruschetta -->
+    <g id="menu-item-2">
+      <text x="16" y="510" font-size="15" font-weight="bold" fill="#212529">Bruschetta</text>
+      <text font-size="12" fill="#6C757D">
+        <tspan x="16" y="531">Grilled bread with tomatoes,</tspan>
+        <tspan x="16" y="548">garlic and fresh basil.</tspan>
+      </text>
+      <text x="16" y="575" font-size="13" font-weight="bold" fill="#495057">$8.99</text>
+
+      <!-- Item Image Placeholder -->
+      <rect x="254" y="496" width="90" height="80" rx="6" fill="#F1F3F5" stroke="#CED4DA" stroke-width="1"/>
+      <line x1="254" y1="496" x2="344" y2="576" stroke="#CED4DA" stroke-width="1"/>
+      <line x1="254" y1="576" x2="344" y2="496" stroke="#CED4DA" stroke-width="1"/>
+
+      <!-- Item Divider -->
+      <line x1="16" y1="610" x2="344" y2="610" stroke="#E9ECEF" stroke-width="1"/>
+    </g>
+
+    <!-- Item 3: Lemon Dessert -->
+    <g id="menu-item-3">
+      <text x="16" y="640" font-size="15" font-weight="bold" fill="#212529">Lemon Dessert</text>
+      <text font-size="12" fill="#6C757D">
+        <tspan x="16" y="661">A delicious dessert with a</tspan>
+        <tspan x="16" y="678">refreshing lemon flavor.</tspan>
+      </text>
+      <text x="16" y="705" font-size="13" font-weight="bold" fill="#495057">$6.99</text>
+
+      <!-- Item Image Placeholder -->
+      <rect x="254" y="626" width="90" height="80" rx="6" fill="#F1F3F5" stroke="#CED4DA" stroke-width="1"/>
+      <line x1="254" y1="626" x2="344" y2="706" stroke="#CED4DA" stroke-width="1"/>
+      <line x1="254" y1="706" x2="344" y2="626" stroke="#CED4DA" stroke-width="1"/>
+    </g>
+  </g>
+
+  <!-- ════════════════════════════════════════════════════════════
+       FRAME BORDER (360 x 800)
+  ════════════════════════════════════════════════════════════ -->
+  <rect x="0" y="0" width="360" height="800" fill="none" stroke="#ADB5BD" stroke-width="1"/>
+</svg>
